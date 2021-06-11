@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "test": "npx c8 --reporter=html --require lib/main.js node test/main.js && open coverage/index.html",
-    "prettify": "npx prettier --write 'lib/*.js' 'test/*.js'",
+    "prettier": "npx prettier --write 'lib/*.js' 'test/*.js'",
     "lint": "npx eslint 'lib/*.js' 'test/*.js'"
   },
   "files": [
